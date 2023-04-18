@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter";
+}
+
+.header {
+  height: 200px;
+  background-image: linear-gradient(to right, #3a6073, #16222a);
+  margin-bottom: 10px;
+  color: white;
+}
+.header h1 {
+  text-align: center;
+  position: relative;
+  top: 45%;
+}
+
+#vue h3 {
+  text-align: center;
+}
+#vue .list {
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#vue .list img {
+  width: 330px;
+  height: 330px;
+  object-fit: cover;
+}
+#vue .list button {
+  background: none;
+  margin-top: 5px;
+  padding: 5px 5px;
+  position: relative;
+  font-size: small;
+}
